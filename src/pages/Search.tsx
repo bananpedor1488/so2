@@ -5,7 +5,7 @@ import { colors, radius } from '../theme';
 import { TrackCard } from '../components/TrackCard';
 import { usePlayer } from '../context/PlayerContext';
 
-const API_BASE = 'https://wekky-server.onrender.com';
+const API_BASE = 'http://178.104.40.37:25593';
 
 export const Search = () => {
   const [query, setQuery] = useState('');

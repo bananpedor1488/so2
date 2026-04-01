@@ -1,7 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { Audio } from 'expo-av';
 
-const API_BASE = 'https://wekky-server.onrender.com';
+const API_BASE = 'http://178.104.40.37:25593';
 
 interface Track {
   id: string;

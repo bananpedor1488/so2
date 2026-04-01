@@ -6,7 +6,7 @@ import { TrackCard } from '../components/TrackCard';
 import { usePlayer } from '../context/PlayerContext';
 import { useAuth } from '../context/AuthContext';
 
-const API_BASE = 'https://wekky-server.onrender.com';
+const API_BASE = 'http://178.104.40.37:25593';
 
 export const Home = () => {
   const [trending, setTrending] = useState([]);
